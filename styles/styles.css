@@ -34,6 +34,8 @@ aside img {
 }
 
 nav {
+    background-color: steelblue;
+    padding: 10px;
     max-width: 840px;
     margin: 0 auto;
     display: flex;
@@ -44,10 +46,11 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px;
     font-weight: bold;
     background-color: #2f5f7a;
     border-radius: 5px;
+    display: block;
 }
 
 h1 {
