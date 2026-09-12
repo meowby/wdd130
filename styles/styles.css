@@ -33,14 +33,19 @@ aside img {
     border: 2px solid white;
 }
 
+nav {
+    max-width: 840px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
 nav a {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     font-weight: bold;
-}
-
-nav a {
     background-color: #2f5f7a;
     border-radius: 5px;
 }
