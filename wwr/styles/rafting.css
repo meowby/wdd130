@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #19465f;
+    --secondary-color: #c29b6c;
+    --accent1-color: #333333;
+    --body-font: Arial, sans-serif;
+    --heading-font: Georgia, serif;
+}
+
 * {
     margin: 0;
     padding: 0;
