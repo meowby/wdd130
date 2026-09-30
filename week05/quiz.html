@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <main class="box">
+        <h1>✅ Basic HTML and CSS Quiz</h1>
+        <form class="box">
+            <div class="quiz-item box">
+                <label for="q1">1. Which CSS property is used to change the text color?
+                    <input type="text" id="q1" name="q1" required>
+                </label>
+            </div>
+            <div class="quiz-item box">
+                <label for="q2">2. What does HTML stand for?
+                    <textarea id="q2" name="q2 " required></textarea>
+                </label>
+            </div>
+            <div class="quiz-item box">
+                <label for="q3">3. Which HTML element is used to create a hyperlink?
+                    <select type="text" id="q3" name="q3" required>
+                        <option value="" selected disabled>Choose an answer</option>
+                        <option value="a">a</option>
+                        <option value="link">link</option>
+                        <option value="href">href</option>
+                    </select>
+                </label>
+            </div>
+            <div class="quiz-item box question">
+
+                <p>4. Which of the following are valid CSS properties?</p>
+                <label for="color">
+                    <input type="checkbox" id="color" name="properties" value="color">
+                    color
+                </label>
+
+                <label for="margin">
+                    <input type="checkbox" id="margin" name="properties" value="margin">
+                    margin
+                </label>
+
+                <label for="padding">
+                    <input type="checkbox" id="padding" name="properties" value="padding">
+                    padding
+                </label>
+
+                <label for="heading">
+                    <input type="checkbox" id="heading" name="properties" value="heading">
+                    heading
+                </label>
+            </div>
+            <br><br>
+
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+
+</html>
