@@ -193,7 +193,8 @@ p {
     text-align: center;
 }
 
-* COMPANY INFO */ .company-info {
+/* COMPANY INFO */
+.company-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
