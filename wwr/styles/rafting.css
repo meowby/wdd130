@@ -239,6 +239,7 @@ p {
 .team-gallery img {
 
     width: 100%;
+    aspect-ratio: 3 / 4;
     height: auto;
     object-fit: cover;
     object-position: top;
@@ -327,6 +328,192 @@ p {
 .contact-form button[type="submit"]:focus {
     background-color: #fff;
     color: var(--primary-color);
+}
+
+/* HOME */
+.offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px 20px;
+}
+
+.offerings h2 {
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+.offering img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid var(--primary-color);
+}
+
+.cta:hover,
+.cta:focus {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+/* TRIPS */
+.trips > h1,
+.trips-intro,
+.trip-details,
+.trip-table,
+.equipment,
+.trips-cta {
+    padding: 30px 20px;
+}
+
+.trips > h1 {
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.trips-intro,
+.trips-cta {
+    text-align: center;
+}
+
+.trips-intro p,
+.trips-cta p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.trip-details h2,
+.trip-table h2,
+.equipment h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.trips h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 8px;
+}
+
+.trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.trip:nth-of-type(even) img {
+    order: 2;
+}
+
+.trip img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.trip-meta {
+    margin-top: 10px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table caption {
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 10px;
+    border: 1px solid var(--accent1-color);
+    text-align: left;
+}
+
+.trip-table thead th {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.trip-table tbody tr:nth-child(even) {
+    background-color: #dce1e7;
+}
+
+.equipment-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: #dce1e7;
+}
+
+.equipment ul {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.trips-cta {
+    margin-bottom: 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.trips-cta h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid var(--primary-color);
+}
+
+.trips-cta .cta {
+    background-color: #fff;
+    color: var(--primary-color);
+    border-color: #fff;
+}
+
+.cta:hover,
+.cta:focus {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.trips-cta .cta:hover,
+.trips-cta .cta:focus {
+    background-color: var(--primary-color);
+    color: #fff;
 }
 
 /* FOOTER */
